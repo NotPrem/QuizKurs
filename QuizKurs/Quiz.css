@@ -1,0 +1,257 @@
+﻿body {
+    margin-top: 20px;
+    margin-bottom: 570px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    font-size: 25px;
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+}
+
+.container {
+
+}
+
+.Title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    color: black;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    background: transparent;
+    width: 400px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 4px solid white;
+    border-top: 3px solid white;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: #000;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.UserNameT {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 34px;
+    justify-content: center;
+    width: 100px;
+    margin: 40px;
+}
+
+.UserNameCls {
+    width: 150px;
+    padding: 0.7rem;
+    position: relative;
+    margin-top: 10px;
+    margin-left: -6px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 1.1rem;
+    float: left;
+    border-radius: 10px;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    background: transparent;
+    border: none;
+    border-left: 4px solid white;
+    border-top: 3px solid white;
+    border-radius: 5000px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.UserNameClass {
+    width: 70px;
+    height: 60px;
+    margin: 70px;
+}
+
+.Question1, .Question2, .Question3, .Question4, .Question5, .Question6, .Question7, .Question8, .Question9, .Question10, .Question11,
+.Question12 {
+    padding-block-start: 20px;
+    color: #000;
+    float: left;
+    font-weight: 600;
+    width: 300px;
+    resize: none;
+    height: 400px;
+    padding: 0.7rem;
+    margin: 30px;
+    margin-bottom: 1rem;
+    background: transparent;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    background: transparent;
+    border: none;
+    border-left: 4px solid white;
+    border-top: 3px solid white;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.Quiz1, .Quiz2, .Quiz3, .Quiz4, .Quiz5, .Quiz6, .Quiz7, .Quiz8, .Quiz9, .Quiz10, .Quiz1, .Quiz11, .Quiz12 {
+    background-color: none;
+    margin: 30px;
+    height: 630px;
+    border-radius: 30px;
+}
+
+.QT1, .QT2, .QT3, .QT4, .QT5, .QT6, .QT7, .QT8, .QT9, .QT10, .QT11, .QT12 {
+    padding-block-start: 20px;
+    color: #000;
+    float: left;
+    font-weight: 600;
+    width: 300px;
+    height: 100px;
+    padding: 0.7rem;
+    margin: 30px;
+    margin-bottom: 1rem;
+    background: transparent;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    background: transparent;
+    border: none;
+    border-left: 4px solid white;
+    border-top: 3px solid white;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.QuestionText1, .QuestionText2, .QuestionText3, .QuestionText4, .QuestionText5, .QuestionText6, .QuestionText7, .QuestionText8, .QuestionText9, .QuestionText10, .QuestionText11, .QuestionText12 {
+    position: relative;
+    font-size: 23px;
+    margin: 30px;
+    float: left;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    background: transparent;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 5000px;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+.BtnFinish {
+    width: 120px;
+    padding: 10px;
+    margin: 20px;
+    height: 70px;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    bottom: 0px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+    .BtnFinish:focus:not(:focus-visible):not(.focus-visible) {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .BtnFinish:hover {
+        background-color: #2c974b;
+    }
+
+    .BtnFinish:focus {
+        box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+        outline: none;
+    }
+
+    .BtnFinish:disabled {
+        background-color: #94d3a2;
+        border-color: rgba(27, 31, 35, .1);
+        color: rgba(255, 255, 255, .8);
+        cursor: default;
+    }
+
+    .BtnFinish:active {
+        background-color: #298e46;
+        box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+        transform: scale(0.98);
+    }
+
+@media screen and (max-width: 600px) {
+    .Title
+    .QuestionText1
+    .QuestionText2
+    .QuestionText3
+    .QuestionText4
+    .QuestionText5
+    .QuestionText6
+    .QuestionText7
+    .QuestionText8
+    .QuestionText9
+    .QuestionText10
+    .QuestionText11
+    .QuestionText12 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .BtnFinish {
+        width: 50%;
+    }
+}
+
