@@ -55,7 +55,7 @@ namespace QuizKurs
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://localhost:30351/AdminLogin.aspx");
+            Response.Redirect("AdminLogin.aspx");
         }
     }
 }

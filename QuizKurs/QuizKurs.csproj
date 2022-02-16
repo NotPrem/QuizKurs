@@ -68,14 +68,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
+    <Content Include="Admin.css" />
     <Content Include="AdminLogin.aspx" />
-    <Content Include="CourseIntro.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="CourseIntro.css" />
     <Content Include="CreateAccount.aspx" />
     <Content Include="CreateAccount.css" />
     <Content Include="Login.css" />
     <Content Include="LogInAdmin.css" />
     <Content Include="Quiz.css" />
+    <Content Include="QuizFinish.aspx" />
+    <Content Include="QuizFinish.css" />
     <Content Include="Web.config" />
     <Content Include="Quiz.aspx" />
     <Content Include="Login.aspx" />
@@ -95,12 +98,12 @@
     <Compile Include="AdminLogin.aspx.designer.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CourseIntro.aspx.cs">
-      <DependentUpon>CourseIntro.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CourseIntro.aspx.designer.cs">
-      <DependentUpon>CourseIntro.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="CreateAccount.aspx.cs">
       <DependentUpon>CreateAccount.aspx</DependentUpon>
@@ -123,6 +126,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuizFinish.aspx.cs">
+      <DependentUpon>QuizFinish.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuizFinish.aspx.designer.cs">
+      <DependentUpon>QuizFinish.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

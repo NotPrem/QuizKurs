@@ -62,7 +62,7 @@ namespace QuizKurs
 
         protected void GoBack_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://localhost:30351/Login.aspx");
+            Response.Redirect("Login.aspx");
         }
     }
 }

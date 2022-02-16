@@ -38,9 +38,10 @@ namespace QuizKurs
             sqlCmd.Parameters.AddWithValue("@Username", TextBoxUserName.Text.Trim());
             sqlCmd.Parameters.AddWithValue("@Password", TextBoxPwd.Text.Trim());
             int count = Convert.ToInt32(sqlCmd.ExecuteScalar());
-            if (count == 1)
+            if (count == 1) 
             {
                 Session["UserName"] = TextBoxUserName.Text.Trim();
+                Session["Password"] = TextBoxPwd.Text.Trim();
                 Response.Redirect("Admin.aspx");
             }
 

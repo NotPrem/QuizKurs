@@ -20,11 +20,11 @@
 
         </div>
         <div>
-            <asp:TextBox ID="TextBoxUn"  CssClass="CreateUserNamme" runat="server" autofocus-placeholder="UserName" OnTextChanged="TextBoxUn_TextChanged">New Username</asp:TextBox>
+            <asp:TextBox ID="TextBoxUn"  CssClass="CreateUserNamme" runat="server" autofocus-placeholder="UserName" OnTextChanged="TextBoxUn_TextChanged" placeholder="Brukernavn">  </asp:TextBox>
         </div>
         <div>
 
-        <asp:TextBox ID="TextBoxPwd" type="password" autofocus-placeholder="password"  CssClass="CreatePwd" runat="server" OnTextChanged="TextBoxPwd_TextChanged">New Password</asp:TextBox>
+        <asp:TextBox ID="TextBoxPwd" type="password" autofocus-placeholder="password"  CssClass="CreatePwd" runat="server" OnTextChanged="TextBoxPwd_TextChanged" placeholder="passord"> </asp:TextBox>
             </div>
         <asp:Button ID="CreateAccountBtn"   EmptyDataText="Beklager, Navnet er tatt" CssClass="CreateBtn" runat="server" Text="Lag" OnClick="CreateAccountBtn_Click" />
         <asp:Button ID="GoBack" CssClass="GoBackBtn" runat="server" Text="Gå tilbake" OnClick="GoBack_Click" />

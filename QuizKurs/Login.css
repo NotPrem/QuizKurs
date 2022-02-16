@@ -110,36 +110,44 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
+    .UserNameTextBox:hover{
+        transform:scale(0.92);
+    }
 
-.LoginSubmit {
-    background-color: #2ea44f;
-    border: 1px solid rgba(27, 31, 35, .15);
-    border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-    box-sizing: border-box;
-    bottom: 0px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 22px;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 19px;
-    font-weight: 600;
-    line-height: 20px;
-    padding: 6px 16px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-    white-space: nowrap;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-    box-shadow: 60px 60px 60px rgba(0,0,0,0.2);
-}
+    .PassWordTextBox:hover{
+        transform:scale(0.92);
+    }
+
+
+    .LoginSubmit {
+        background-color: #2ea44f;
+        border: 1px solid rgba(27, 31, 35, .15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+        box-sizing: border-box;
+        bottom: 0px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 22px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        box-shadow: 60px 60px 60px rgba(0,0,0,0.2);
+    }
 
 
     .LoginSubmit:focus:not(:focus-visible):not(.focus-visible) {
@@ -149,6 +157,7 @@ body {
 
     .LoginSubmit:hover {
         background-color: #2c974b;
+        transform:scale(0.92)
     }
 
     .LoginSubmit:focus {
@@ -166,7 +175,7 @@ body {
     .LoginSubmit:active {
         background-color: #298e46;
         box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
-        transform: scale(0.98);
+        transform: scale(0.92);
     }
 
 .MsgLoginFail {
